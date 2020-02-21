@@ -20,7 +20,7 @@ namespace TestRest
             var controller = new WeatherForecastController(null);
             var result =  controller.Get();
             List<WeatherForecast> s = result.ToList();
-            Assert.IsTrue( s.Count == 5);
+            Assert.IsTrue( s.Count == 4);
         }
     }
 }
