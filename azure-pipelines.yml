@@ -45,7 +45,7 @@ steps:
   inputs:
     command: publish
     publishWebProjects: false
-    projects: 'HelloRest/HelloRest/HelloRest.csproj'
+    projects: '**/HelloRest/HelloRest.csproj'
     arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
     zipAfterPublish: true
 
