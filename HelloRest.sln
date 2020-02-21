@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloRest", "HelloRest\HelloRest.csproj", "{58257E80-56FD-4028-8E77-497F99A3A8DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRest", "TestRest\TestRest.csproj", "{BBD65B19-0E17-4856-AD93-2397A74E2BE1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{58257E80-56FD-4028-8E77-497F99A3A8DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58257E80-56FD-4028-8E77-497F99A3A8DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58257E80-56FD-4028-8E77-497F99A3A8DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBD65B19-0E17-4856-AD93-2397A74E2BE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBD65B19-0E17-4856-AD93-2397A74E2BE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBD65B19-0E17-4856-AD93-2397A74E2BE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBD65B19-0E17-4856-AD93-2397A74E2BE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
