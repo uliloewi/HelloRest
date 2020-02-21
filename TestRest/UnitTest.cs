@@ -17,7 +17,6 @@ namespace TestRest
         [Test]
         public void TestWeatherForecastGet()
         {
-            //ILogger<WeatherForecastController> logger = new Logger<WeatherForecastController>(null);
             var controller = new WeatherForecastController(null);
             var result =  controller.Get();
             List<WeatherForecast> s = result.ToList();
